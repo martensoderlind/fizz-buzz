@@ -1,4 +1,5 @@
 mod fizzbuzz;
 fn main() {
-    fizzbuzz::fizzbuzz(100);
+    let result = fizzbuzz::fizzbuzz(100);
+    println!("{}", result)
 }
